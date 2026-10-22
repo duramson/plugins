@@ -1,0 +1,30 @@
+<model>
+    <mount>//OPNsense/ont</mount>
+    <version>0.1.0</version>
+    <description>Optical network terminal status</description>
+    <items>
+        <general>
+            <enabled type="BooleanField">
+                <Default>0</Default>
+                <Required>Y</Required>
+            </enabled>
+            <driver type="OptionField">
+                <Default>gfm2</Default>
+                <Required>Y</Required>
+                <OptionValues>
+                    <gfm2>Deutsche Telekom Glasfaser-Modem 2/2b</gfm2>
+                </OptionValues>
+            </driver>
+            <address type="NetworkField">
+                <Default>192.168.100.1</Default>
+                <Required>Y</Required>
+                <NetMaskAllowed>N</NetMaskAllowed>
+                <AddressFamily>ipv4</AddressFamily>
+            </address>
+            <allow_restart type="BooleanField">
+                <Default>0</Default>
+                <Required>Y</Required>
+            </allow_restart>
+        </general>
+    </items>
+</model>

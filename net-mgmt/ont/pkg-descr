@@ -1,0 +1,23 @@
+Shows the status of the optical network terminal (ONT, fiber modem) in front
+of the firewall: optical receive and transmit power, error counters,
+firmware and serial number. A status page and a dashboard widget are
+included. The plugin only reads from the ONT, unless the optional restart
+button is enabled in its settings.
+
+The ONT is queried on its management address, so the firewall needs an
+interface in the ONT management network (for example 192.168.100.2/24 on
+the WAN port, without gateway).
+
+Supported devices:
+
+* Deutsche Telekom Glasfaser-Modem 2 and 2b (driver "gfm2")
+
+Further devices can be added as drivers, see the scripts/ont/drivers
+directory.
+
+Plugin Changelog
+================
+
+0.1
+
+* Initial release

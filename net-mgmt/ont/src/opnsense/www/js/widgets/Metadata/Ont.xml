@@ -1,0 +1,20 @@
+<metadata>
+    <ont>
+        <filename>Ont.js</filename>
+        <link>/ui/ont</link>
+        <endpoints>
+            <endpoint>/api/ont/status/get</endpoint>
+        </endpoints>
+        <translations>
+            <title>ONT</title>
+            <model>Model</model>
+            <serial>Serial number</serial>
+            <rx_power>Receive power</rx_power>
+            <tx_power>Transmit power</tx_power>
+            <bip_errors>BIP errors</bip_errors>
+            <lan_link>LAN link</lan_link>
+            <no_value>no value</no_value>
+            <disabled>ONT status is disabled.</disabled>
+        </translations>
+    </ont>
+</metadata>

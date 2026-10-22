@@ -1,0 +1,16 @@
+<acl>
+    <page-interfaces-diagnostics-ont>
+        <name>Interfaces: Diagnostics: ONT Status</name>
+        <patterns>
+            <pattern>ui/ont/*</pattern>
+            <pattern>api/ont/settings/*</pattern>
+            <pattern>api/ont/status/*</pattern>
+        </patterns>
+    </page-interfaces-diagnostics-ont>
+    <page-interfaces-diagnostics-ont-restart>
+        <name>Interfaces: Diagnostics: ONT Status: Restart</name>
+        <patterns>
+            <pattern>api/ont/service/restart</pattern>
+        </patterns>
+    </page-interfaces-diagnostics-ont-restart>
+</acl>

@@ -1,0 +1,26 @@
+<form>
+    <field>
+        <id>ont.general.enabled</id>
+        <label>Enabled</label>
+        <type>checkbox</type>
+        <help>Query the ONT for the status page and the dashboard widget.</help>
+    </field>
+    <field>
+        <id>ont.general.driver</id>
+        <label>Device</label>
+        <type>dropdown</type>
+        <help>Model of the ONT. Each model has its own driver.</help>
+    </field>
+    <field>
+        <id>ont.general.address</id>
+        <label>Management address</label>
+        <type>text</type>
+        <help>IPv4 address of the ONT. The firewall needs an interface in this network, for example 192.168.100.2/24 on the WAN port without gateway.</help>
+    </field>
+    <field>
+        <id>ont.general.allow_restart</id>
+        <label>Allow restart</label>
+        <type>checkbox</type>
+        <help>Show a button on the status page that restarts the ONT. The internet connection is down while it restarts. Off by default, the plugin then only reads from the ONT.</help>
+    </field>
+</form>

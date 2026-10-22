@@ -1,0 +1,7 @@
+<menu>
+    <Interfaces>
+        <Diagnostics>
+            <OntStatus VisibleName="ONT Status" url="/ui/ont"/>
+        </Diagnostics>
+    </Interfaces>
+</menu>
